@@ -36,7 +36,7 @@ const isMobile =  useMediaQuery('(min-width: 1023px)')
       ssr // means to render carousel on server-side.
       showDots={!isMobile}
       renderButtonGroupOutside
-      customButtonGroup={ isMobile ?<CarouselButton />:null}
+      customButtonGroup={ isMobile ?<CarouselButton next={()=> {}} previous={()=> {} } />:null}
       containerClass="carousel-container"
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
