@@ -50,3 +50,4 @@ Two extra SVG icons are also provided by our designer which are stored under `do
 - npm run dev
 
 - open http://localhost:3000
+- Project deployed using Vercel: https://car-list-snowy.vercel.app/
