@@ -30,7 +30,7 @@ const isMobile =  useMediaQuery('(min-width: 1023px)')
     <Carousel
       responsive={responsive}
       arrows={false}
-      autoPlay ={false}
+      shouldResetAutoplay ={false}
       partialVisible
       ssr // means to render carousel on server-side.
       showDots={!isMobile}
