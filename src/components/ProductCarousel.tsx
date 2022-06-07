@@ -20,9 +20,9 @@ const ProductCarousel: React.FC = ({children}) => {
       partialVisibilityGutter: 80,
     },
     mobile: {
-      breakpoint: { max: 479, min: 0 },
+      breakpoint: { max: 464, min: 0 },
       items: 1,
-      partialVisibilityGutter: 80,
+      partialVisibilityGutter: 90,
     },
   };
 const isMobile =  useMediaQuery('(min-width: 1023px)')
@@ -31,7 +31,6 @@ const isMobile =  useMediaQuery('(min-width: 1023px)')
       responsive={responsive}
       arrows={false}
       autoPlay ={false}
-      minimumTouchDrag={80}
       partialVisible
       ssr // means to render carousel on server-side.
       showDots={!isMobile}
